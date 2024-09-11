@@ -16,6 +16,28 @@ Created Redux store with user slice
 Implemented Signout
 updated our profile
 Redirected the app
+Bug Fix: Signup user display name and profile picture update
+Bug Fix: If the user is not logged in, redirect the user to login page and vice-versa
+Unsubscribed the onAuthStateChnage callback once the component unmounts
+Add hardcoded values to the constant files.
+Registered for TMDB API and create an access Token
+Get data from TMDB now playing API list.
+custom hooks for nowPlayingMovies
+Updated the store with the data
+Planning for Main and secondary container
+Fetch data for trailer video
+custom hook for trailervideo and update the store
+Embedded the youtube video and made it autoplay and mute
+Added Tailwind classes 
+
+## Browse Sections
+
+- Main Video Section - Main Container
+  - Video Background
+  - Video Title
+- Secondary Container
+  - Movies list * N
+    - Cards * N
 
 
 
@@ -64,6 +86,7 @@ Redirected the app
 - given by react-router-dom to navigate to a particular page.
 
 ## useSelector
+- To get the data from the store given by react-redux
 
 # Setting up a Redux Store
 
@@ -96,3 +119,13 @@ Redirected the app
 - onAuthStateChange is fired whenever userSignsIn, signsupm and is usually called at applevel or in the body.
 
 - When we try to update the details of a user, we do not give the details of the user but we give the details of the user from the auth.
+  
+- We have to give options as a parameter whenever we make an API call
+
+- API data is returned twice in the console in the development mode because of React.StrictMode. 
+  - React is trying to do extra rendering of your components to check for inconsistencies between your calls. 
+  - It happens only in the development mode and will throw an error if there are any inconsistencies in the code.
+
+- Fix the aspect ratio of videos
+  - aspect-video
+  - all the videos have aspect ratio 16:9
