@@ -1,35 +1,44 @@
 # Netflix GPT
 
-create react app
-configured tailwind css
-Header
-Routing
-Login form
-Signup Form
-Form Validation
-useRef hook
-Firebase setup
-Deployed the app to production
-Create a signup user account
-Implement signin user api
-Created Redux store with user slice
-Implemented Signout
-updated our profile
-Redirected the app
-Bug Fix: Signup user display name and profile picture update
-Bug Fix: If the user is not logged in, redirect the user to login page and vice-versa
-Unsubscribed the onAuthStateChnage callback once the component unmounts
-Add hardcoded values to the constant files.
-Registered for TMDB API and create an access Token
-Get data from TMDB now playing API list.
-custom hooks for nowPlayingMovies
-Updated the store with the data
-Planning for Main and secondary container
-Fetch data for trailer video
-custom hook for trailervideo and update the store
-Embedded the youtube video and made it autoplay and mute
-Added Tailwind classes 
-Build Secondary Component
+- create react app
+- configured tailwind css
+- Header
+- Routing
+- Login form
+- Signup Form
+- Form Validation
+- useRef hook
+- Firebase setup
+- Deployed the app to production
+- Create a signup user account
+- Implement signin user api
+- Created Redux store with user slice
+- Implemented Signout
+- updated our profile
+- Redirected the app
+- Bug Fix: Signup user display name and profile picture update
+- Bug Fix: If the user is not logged in, redirect the user to login page and vice-versa
+- Unsubscribed the onAuthStateChnage callback once the component unmounts
+- Add hardcoded values to the constant files.
+- Registered for TMDB API and create an access Token
+- Get data from TMDB now playing API list.
+- custom hooks for nowPlayingMovies
+- Updated the store with the data
+- Planning for Main and secondary container
+- Fetch data for trailer video
+- custom hook for trailervideo and update the store
+- Embedded the youtube video and made it autoplay and mute
+- Added Tailwind classes 
+- Build Secondary Component
+- Built Movie List
+- Built Movie Card
+- TMDB Image CDN URL
+- Made the browse Page amazing with Tailwind css
+- usePopular movies custome hook
+- GPT Search Feature
+- GPT Search Bar
+- Multi-lingual language Feature in our app
+
 
 ## Browse Sections
 
@@ -115,6 +124,7 @@ Build Secondary Component
         }        
     })
   -  export the reducer and actions from userSlice and import to the store.
+  -  Other state management libraries that are getting popular like Redux is Zustand
 
 # Notes
 

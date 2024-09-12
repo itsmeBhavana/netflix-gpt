@@ -7,7 +7,7 @@ import {
   updateProfile,
 } from "firebase/auth";
 import { auth } from "../utils/firebase";
-import { USER_AVATAR } from "../utils/constants";
+import { BG_URL, USER_AVATAR } from "../utils/constants";
 
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
@@ -92,7 +92,7 @@ const Login = () => {
       <div className="absolute">
         <img
           className="overflow-y-hidden "
-          src="https://assets.nflxext.com/ffe/siteui/vlv3/e9fe7275-b7ac-402d-b217-6f21858cb3ac/null/US-en-20240903-TRIFECTA_GLOBAL_FALLBACK-perspective_d0db67d4-a740-462b-97e1-95ebb9ef84c3_medium.jpg"
+          src={BG_URL}
           alt="bgImage"
         />
       </div>

@@ -12,4 +12,11 @@ export const API_OPTIONS = {
   },
 };
 
+export const BG_URL =
+  "https://assets.nflxext.com/ffe/siteui/vlv3/e9fe7275-b7ac-402d-b217-6f21858cb3ac/null/US-en-20240903-TRIFECTA_GLOBAL_FALLBACK-perspective_d0db67d4-a740-462b-97e1-95ebb9ef84c3_medium.jpg";
+
 export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500/";
+
+export const SUPPORTED_LANGUAGES = [{ identifier: "en", name: "English" },
+{identifier: "hindi", name: "Hindi"},
+{identifier: "spanish", name: "Spanish"}];
