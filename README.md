@@ -29,6 +29,7 @@ Fetch data for trailer video
 custom hook for trailervideo and update the store
 Embedded the youtube video and made it autoplay and mute
 Added Tailwind classes 
+Build Secondary Component
 
 ## Browse Sections
 
@@ -37,7 +38,13 @@ Added Tailwind classes
   - Video Title
 - Secondary Container
   - Movies list * N
-    - Cards * N
+    - Popular
+      - MovieCards * N
+    - Trending
+    - Now Playing
+    - Genres
+  - Cards * N
+  - 
 
 
 
