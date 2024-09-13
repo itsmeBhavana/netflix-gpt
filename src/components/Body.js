@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
 import Login from "./Login";
 import Browse from "./Browse";
 import { createBrowserRouter } from "react-router-dom";
 import { RouterProvider } from "react-router-dom";
+import MoviePlay from "./MoviePlay";
 
 const Body = () => {
   const appRouter = createBrowserRouter([
@@ -13,6 +13,10 @@ const Body = () => {
     {
       path: "/browse",
       element: <Browse />,
+    },
+    {
+      path: "/video/:videoId",
+      element: <MoviePlay />,
     },
   ]);
 

@@ -21,7 +21,7 @@ const GPTSearchBar = () => {
     return json.results;
   };
   const handleGPTSearchClick = async () => {
-    console.log(searchText.current.value);
+   
     // Make an API call to GPT API and get Movie Results
 
     const gptQuery =
@@ -43,7 +43,7 @@ const GPTSearchBar = () => {
     const promiseArray = gptMovies.map((movie) => searchMovieTMDB(movie));
     //[promise1, promise2, promise3, promise4, promise5]
     const tmdbresults = await Promise.all(promiseArray);
-    console.log(tmdbresults);
+   
     dispatch(addGPTMovieResult({movieNames:gptMovies, movieResults: tmdbresults}));
   };
   return (
