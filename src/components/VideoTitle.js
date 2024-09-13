@@ -18,7 +18,7 @@ const VideoTitle = ({ title, overview, movieId }) => {
           className=" bg-white text-black py-1 px-3 md:px-12 md:py-4 text-xl hover:bg-opacity-80 rounded-md"
           onClick={handlePlay}
         >
-          ▶️ Play
+          Play
         </button>
         <button
           className="hidden md:inline-block bg-gray-500 text-white py-1 px-3 md:px-12 md:py-4 text-xl bg-opacity-50 hover:bg-opacity-80 rounded-md mx-2"
