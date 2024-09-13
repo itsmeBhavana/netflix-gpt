@@ -47,9 +47,9 @@ const GPTSearchBar = () => {
     dispatch(addGPTMovieResult({movieNames:gptMovies, movieResults: tmdbresults}));
   };
   return (
-    <div className="pt-[10%] flex justify-center">
+    <div className="md:pt-[10%] pt-[55%] flex justify-center">
       <form
-        className=" bg-black w-1/2 grid grid-cols-12"
+        className=" bg-black w-full md:w-1/2 grid grid-cols-12"
         onSubmit={(e) => e.preventDefault()}
       >
         <input

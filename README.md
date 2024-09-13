@@ -38,6 +38,14 @@
 - GPT Search Feature
 - GPT Search Bar
 - Multi-lingual language Feature in our app
+- Get GPT Search OpenAI API key
+- GPT Search API call
+- Memoization
+- Fetched GPT movie suggestions from TMDB
+- created GPT slice and added the data
+- Reused movie list component to make movie suggestion container
+- added .env file and added to gitignore
+- made our site responsive
 
 
 ## Browse Sections
@@ -146,3 +154,7 @@
 - Fix the aspect ratio of videos
   - aspect-video
   - all the videos have aspect ratio 16:9
+
+# Responsiveness in CSS
+- By default is for mobile
+- For desktop it is md.

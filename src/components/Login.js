@@ -89,16 +89,16 @@ const Login = () => {
   return (
     <div className="overflow-hidden">
       <Header />
-      <div className="absolute">
+      <div className="absolute w-full">
         <img
-          className="overflow-y-hidden "
+          className="overflow-y-hidden h-screen object-cover w-full"
           src={BG_URL}
           alt="bgImage"
         />
       </div>
       <form
         onSubmit={(e) => e.preventDefault()}
-        className="w-3/12 absolute my-36 mx-auto p-12 right-0 left-0 bg-black text-white rounded-lg bg-opacity-80"
+        className="w-full md:w-3/12 absolute my-36 mx-auto p-12 right-0 left-0 bg-black text-white rounded-lg bg-opacity-80"
       >
         <h1 className="font-bold text-3xl py-4">
           {isSignInForm ? "Sign In" : "Sign Up"}
